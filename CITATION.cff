@@ -10,6 +10,14 @@ version: "2.8.0.0"
 date-released: "2026-08-18"
 url: "https://github.com/shilpam-sharma/Anuprayog-Tarang-Linux-Releases"
 repository-artifact: "https://github.com/shilpam-sharma/Anuprayog-Tarang-Linux-Releases/releases"
+doi: "10.5281/zenodo.21988908"
+identifiers:
+  - type: doi
+    value: "10.5281/zenodo.21988908"
+    description: "Concept DOI - cites this Linux build in general and resolves to the newest version."
+  - type: doi
+    value: "10.5281/zenodo.21988909"
+    description: "Version DOI for v2.8.0.0 - cites this exact release."
 keywords:
   - "data analysis"
   - "scientific plotting"

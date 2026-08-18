@@ -1,5 +1,7 @@
 # AnuPrayog: Tarang — Linux
 
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.21988908.svg)](https://doi.org/10.5281/zenodo.21988908)
+
 A scientific data analysis and plotting application.
 
 **Downloads:** see [Releases](https://github.com/shilpam-sharma/Anuprayog-Tarang-Linux-Releases/releases) — an
@@ -24,10 +26,20 @@ ready-made citations under **Help > How to Cite…**, carrying the exact version
   title   = {{AnuPrayog: Tarang (Linux)}},
   version = {2.8.0.0},
   year    = {2026},
+  doi     = {10.5281/zenodo.21988908},
   url     = {https://github.com/shilpam-sharma/Anuprayog-Tarang-Linux-Releases},
   note    = {Free to use, closed source. See the EULA for full terms.}
 }
 ```
+
+Two DOIs are available, and they answer different questions:
+
+- **10.5281/zenodo.21988908** — the *concept* DOI. Cites this Linux
+  build in general; always resolves to the newest version.
+- **10.5281/zenodo.21988909** — the DOI for *this specific version*
+  (v2.8.0.0). If your results depend on the software's behaviour, cite
+  the version DOI: it is the only identifier that says which build
+  produced your numbers.
 
 ## How this differs from the Windows build
 

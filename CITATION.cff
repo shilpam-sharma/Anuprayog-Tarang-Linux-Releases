@@ -1,0 +1,25 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite it as below."
+title: "AnuPrayog: Tarang (Linux)"
+abstract: "A scientific data analysis and plotting application. Free to use, closed source. See the EULA for full terms. This is the Linux build; see the Windows releases repository for the primary release line."
+type: software
+authors:
+  - family-names: Sharma
+    given-names: Shilpam
+version: "2.8.0.0"
+date-released: "2026-08-18"
+url: "https://github.com/shilpam-sharma/Anuprayog-Tarang-Linux-Releases"
+repository-artifact: "https://github.com/shilpam-sharma/Anuprayog-Tarang-Linux-Releases/releases"
+keywords:
+  - "data analysis"
+  - "scientific plotting"
+  - "curve fitting"
+  - "spectroscopy"
+  - "X-ray diffraction"
+  - "Fourier transform"
+  - "Kramers-Kronig"
+  - "Linux"
+  - "AppImage"
+  - "Python"
+  - "PySide6"
+license: LicenseRef-proprietary-free-to-use

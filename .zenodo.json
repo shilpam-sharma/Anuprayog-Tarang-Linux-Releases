@@ -1,12 +1,12 @@
 {
-  "title": "AnuPrayog: Tarang (Linux) v2.8.0.0",
-  "description": "<p>AnuPrayog: Tarang &mdash; A scientific data analysis and plotting application.</p><p>Linux AppImage for version 2.8.0.0. Free to use, closed source. See the EULA for full terms.</p><p>Releases: <a href=\"https://github.com/shilpam-sharma/Anuprayog-Tarang-Linux-Releases/releases\">https://github.com/shilpam-sharma/Anuprayog-Tarang-Linux-Releases/releases</a></p><p>See also the primary Windows release line: <a href=\"https://github.com/shilpam-sharma/Anuprayog-Tarang-Releases\">https://github.com/shilpam-sharma/Anuprayog-Tarang-Releases</a></p>",
+  "title": "AnuPrayog: Tarang (Linux) v2.10.4.0",
+  "description": "<p>AnuPrayog: Tarang &mdash; A scientific data analysis and plotting application.</p><p>Linux AppImage for version 2.10.4.0. Free to use, closed source. See the EULA for full terms.</p><p>Releases: <a href=\"https://github.com/shilpam-sharma/Anuprayog-Tarang-Linux-Releases/releases\">https://github.com/shilpam-sharma/Anuprayog-Tarang-Linux-Releases/releases</a></p><p>See also the primary Windows release line: <a href=\"https://github.com/shilpam-sharma/Anuprayog-Tarang-Releases\">https://github.com/shilpam-sharma/Anuprayog-Tarang-Releases</a></p>",
   "creators": [
     {
       "name": "Sharma, Shilpam"
     }
   ],
-  "version": "2.8.0.0",
+  "version": "2.10.4.0",
   "upload_type": "software",
   "keywords": [
     "data analysis",
@@ -25,7 +25,7 @@
   "license": "other-closed",
   "related_identifiers": [
     {
-      "identifier": "https://github.com/shilpam-sharma/Anuprayog-Tarang-Linux-Releases/releases/tag/v2.8.0.0-linux",
+      "identifier": "https://github.com/shilpam-sharma/Anuprayog-Tarang-Linux-Releases/releases/tag/v2.10.4.0-linux",
       "relation": "isSupplementTo",
       "scheme": "url"
     },

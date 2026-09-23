@@ -24,7 +24,7 @@ ready-made citations under **Help > How to Cite…**, carrying the exact version
 @software{sharma2026anuprayoglinux,
   author  = {Sharma, Shilpam},
   title   = {{AnuPrayog: Tarang (Linux)}},
-  version = {2.8.0.0},
+  version = {2.10.4.0},
   year    = {2026},
   doi     = {10.5281/zenodo.21988908},
   url     = {https://github.com/shilpam-sharma/Anuprayog-Tarang-Linux-Releases},
@@ -36,10 +36,10 @@ Two DOIs are available, and they answer different questions:
 
 - **10.5281/zenodo.21988908** — the *concept* DOI. Cites this Linux
   build in general; always resolves to the newest version.
-- **10.5281/zenodo.21988909** — the DOI for *this specific version*
-  (v2.8.0.0). If your results depend on the software's behaviour, cite
-  the version DOI: it is the only identifier that says which build
-  produced your numbers.
+- Each release also carries its own *version* DOI, shown on that
+  release's Zenodo record. If your results depend on the software's
+  behaviour, cite the version DOI: it is the only identifier that says
+  which build produced your numbers.
 
 ## How this differs from the Windows build
 

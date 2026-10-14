@@ -92,6 +92,11 @@ this application under GPLv3 §6 (see the source repository's
 | PyQtGraph | 0.13.7 | MIT | Copyright (c) 2012 Luke Campagnola | [MIT](licenses/MIT.txt) |
 | PyOpenGL | 3.1.10 | BSD-style (PyOpenGL license) | Copyright (c) 2005-2009, Michael C. Fletcher and Contributors | [PyOpenGL-license](licenses/PyOpenGL-license.txt) |
 | PyOpenGL-accelerate | 3.1.10 | BSD-style (OpenGL-ctypes PyOpenGL-accelerate License) | Copyright (c) 2005-2009, Michael C. Fletcher and Contributors | [PyOpenGL-license](licenses/PyOpenGL-license.txt) |
+| scikit-rf | 2.1.0 | BSD-3-Clause | Copyright (c) scikit-rf Development Team | [BSD-3-Clause](licenses/BSD-3-Clause.txt) |
+| astropy | 8.0.1 | BSD-3-Clause | Copyright (c) 2011-2026, Astropy Developers | [BSD-3-Clause](licenses/BSD-3-Clause.txt) |
+| h5py | 3.16.0 | BSD-3-Clause | Copyright (c) 2008 Andrew Collette and contributors | [BSD-3-Clause](licenses/BSD-3-Clause.txt) |
+| gemmi | 0.7.5 | MPL-2.0 | Copyright (c) Global Phasing Ltd.; Marcin Wojdyr | [MPL-2.0](licenses/MPL-2.0.txt) |
+| periodictable | 2.1.0 | Public domain | Paul Kienzle and contributors (NIST); see the package's own LICENSE.txt | (public domain - no licence text required) |
 
 ## Linux system libraries
 

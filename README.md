@@ -24,7 +24,7 @@ ready-made citations under **Help > How to Cite…**, carrying the exact version
 @software{sharma2026anuprayoglinux,
   author  = {Sharma, Shilpam},
   title   = {{AnuPrayog: Tarang (Linux)}},
-  version = {2.10.4.0},
+  version = {2.12.0.0},
   year    = {2026},
   doi     = {10.5281/zenodo.21988908},
   url     = {https://github.com/shilpam-sharma/Anuprayog-Tarang-Linux-Releases},

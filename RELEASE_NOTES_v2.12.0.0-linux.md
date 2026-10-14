@@ -52,14 +52,39 @@ the same feature set, packaged as a single AppImage. It gathers the
   multi-start strategy, and Auto Find Peaks works on a smoothed trace
   with a noise-aware prominence.
 
-## Packaging
+## Packaging - three things that were broken in every previous Linux build
 
-This build adds matplotlib's **SVG, EPS and PDF backends**. `savefig`
-imports a backend by name at save time, so the packager never saw them
-and vector export silently failed in the packaged app while working
-from source - Export Graph, Batch Export, X-Kiran and IR-FEL were all
-affected. `gemmi` and `periodictable` are now bundled too, for the
-rebuilt X-Kiran.
+This release was checked by running an audit *inside* the packaged
+application, rather than only testing from source. That found three
+faults which had shipped unnoticed, because they exist only once the
+app is frozen:
+
+- **Vector export now works.** `savefig` picks its backend by name at
+  save time, so the packager never saw SVG/EPS/PDF and they were absent.
+  Export Graph, Batch Export, X-Kiran and IR-FEL could not write SVG or
+  EPS at all. All formats now verified in the packaged app: PNG, JPG,
+  TIFF, WEBP, PDF, SVG, SVGZ, EPS and PS.
+- **Excel import/export now works.** pandas loads `openpyxl` by name as
+  its `.xlsx` engine, so nothing in the source referenced it and it was
+  never bundled - or even installed. Reading and writing `.xlsx` had
+  therefore never worked in a Linux build.
+- **X-Kiran's Henke/NIST data now ships.** `periodictable`'s 96 data
+  files were missing, so X-Kiran's scattering-factor lookups failed with
+  "Could not find the periodic table data files".
+
+`gemmi` and `periodictable` are bundled for the rebuilt X-Kiran.
+
+## Known issue: FITS import
+
+Opening a **FITS** file does not work in this build. astropy builds its
+unit parser by inspecting the calling stack frame at runtime, which the
+compiler used to package this app does not preserve, so the parser
+cannot be constructed and `astropy.io.fits` fails to load. This is not
+new - it has affected every Linux build since FITS support was added -
+and it is being worked on.
+
+**HDF5 import is unaffected and works normally**, as does the rest of
+the plugin; astropy is only loaded when a FITS file is actually opened.
 
 ## A note for Linux users
 
